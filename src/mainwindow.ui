@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1559</width>
+    <height>842</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="m_centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="m_hlButtons">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="m_btnBack">
+        <property name="text">
+         <string>Back to files</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="m_btnSave">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="m_btnIdAllItems">
+        <property name="text">
+         <string>Identify all Items</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="m_btnRemoveCurses">
+        <property name="text">
+         <string>Remove Curse</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="m_btnAddItem">
+        <property name="text">
+         <string>AddItem</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="m_btnRevealDepth">
+        <property name="text">
+         <string>Reveal Map</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="m_lblWarning">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Warning&lt;/span&gt;&lt;span style=&quot; color:#0000a2;&quot;&gt;: The file was updated.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="m_btnRefresh">
+        <property name="text">
+         <string>Refresh</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTreeView" name="m_treeView"/>
+    </item>
+   </layout>
+  </widget>
+  <action name="m_actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="m_actionPotions">
+   <property name="text">
+    <string>Potions</string>
+   </property>
+  </action>
+  <action name="m_actionScrolls">
+   <property name="text">
+    <string>Scrolls</string>
+   </property>
+  </action>
+  <action name="m_actionInventory">
+   <property name="text">
+    <string>Inventory</string>
+   </property>
+  </action>
+  <action name="m_actionCleanse_Items">
+   <property name="text">
+    <string>Cleanse Items</string>
+   </property>
+  </action>
+  <action name="m_actionRevealDepth">
+   <property name="text">
+    <string>Reveal All Depths</string>
+   </property>
+  </action>
+  <action name="m_actionIdentifyAllItems">
+   <property name="text">
+    <string>Identify All Items</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

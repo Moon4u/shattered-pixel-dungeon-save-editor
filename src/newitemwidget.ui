@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewItemWidget</class>
+ <widget class="QWidget" name="NewItemWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>827</width>
+    <height>234</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Add Itrem</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="7" column="0" colspan="3">
+    <widget class="QPushButton" name="m_btnCancel">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="QPushButton" name="m_btnDone">
+     <property name="text">
+      <string>Done</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="m_lblQuantity">
+     <property name="text">
+      <string>Quantity</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="m_leLevel"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="m_lblLevel">
+     <property name="text">
+      <string>Level</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="m_lblType">
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="m_lblEnchantment">
+     <property name="text">
+      <string>Enchantment</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLineEdit" name="m_leQuantity"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="m_curse">
+     <property name="text">
+      <string>Curse</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="m_lblItem">
+     <property name="text">
+      <string>Item</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1" colspan="2">
+    <widget class="QComboBox" name="m_cbCurse"/>
+   </item>
+   <item row="4" column="1" colspan="2">
+    <widget class="QComboBox" name="m_cbEnchantment"/>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QComboBox" name="m_cbType"/>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QComboBox" name="m_cbItem"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
